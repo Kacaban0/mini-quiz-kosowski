@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Quiz – Autor Kacper Kosowski"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROZPOCZNIJ QUIZ"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pytanie pojawi się tutaj"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odpowiedź A"
+        android:visibility="gone"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odpowiedź B"
+        android:visibility="gone"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odpowiedź C"
+        android:visibility="gone"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik: 0"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ QUIZ"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
